@@ -7,6 +7,35 @@
   "editor.formatOnPaste": true,
   "editor.wordWrap": "on",
   "editor.renderIndentGuides": true,
+  // javascript / typescript
+  // extentions: eslint
+  // npm: eslint prettier eslint-config-prettier eslint-plugin-prettier eslint-plugin-react-redux babel-eslint
+  // npm: @typescript-eslint/parser @typescript-eslint/eslint-plugin
+  "eslint.enable": true,
+  "[javascript]": {
+    "editor.formatOnSave": false,
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    }
+  },
+  "[javascriptreact]": {
+    "editor.formatOnSave": false,
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    }
+  },
+  "[typescript]": {
+    "editor.formatOnSave": false,
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    }
+  },
+  "[typescriptreact]": {
+    "editor.formatOnSave": false,
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    }
+  },
   // ruby
   // extentions: ruby, solargraph, ruby-rubocop, endwise
   // gem: solargraph, rubocop
@@ -19,7 +48,7 @@
   },
   "[ruby]": {
     "editor.formatOnSave": true,
-    "editor.tabSize": 2,
+    "editor.tabSize": 2
   },
   "ruby.format": "rubocop",
   "ruby.rubocop.onSave": true,
